@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Satisfy&family=Style+Script&display=swap');
+body{
+    background-color: rgb(15,23,42);
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.centerDiv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+.cardTransparent{
+  background-color: rgba(255, 255, 255, 0.733);
+}
+.bi{
+  cursor: pointer;
+}
+.nav{
+  background-color: rgba(0, 0, 0, 0.555);
+}
+.borderBottom:hover{
+  border-bottom: 2px solid whitesmoke;
+  transition: .2s;
+}
+.transition{
+  transition: .3s;
+}
+.heightFit{
+  height: fit-content;
+}
+@media(max-width:500px){
+  .card{
+    width: 300px;
+  }
+}
